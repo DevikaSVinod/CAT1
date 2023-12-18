@@ -1,0 +1,75 @@
+body {
+    font-family: 'Courgette', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Satisfy', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #cd2b26;
+    color: #fff;
+    text-align: center;
+    padding: .5em;
+}
+
+body{
+    background-image:url("menu.png.jpg");
+    background-size: cover;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.price {
+    font-weight: bold;
+    color: #d91e18;
+}
+
+button {
+    background-color: #d91e18;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a10e0b;
+}
+
+.viewcart {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    color: #d91e18;
+    padding: 10px;
+    margin: 10px;
+    max-width: 300px;
+    text-align: center;
+    margin-right: 100px;
+}
+.viewcart{
+    font-size: 28px;
+    color:#fbfbfb;
+    margin-right: 100px;
+}
